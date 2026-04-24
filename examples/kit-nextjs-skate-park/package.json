@@ -1,10 +1,9 @@
 {
-  "name": "content-sdk-nextjs",
-  "description": "Application utilizing Content SDK and Next.js",
-  "version": "0.1.0",
+  "name": "content-sdk-nextjs-skate-park-app-router",
+  "version": "1.0.0",
   "private": true,
   "config": {
-    "appName": "content-sdk-nextjs",
+    "appName": "content-sdk-nextjs-skate-park-app-router",
     "graphQLEndpointPath": "/sitecore/api/graph/edge",
     "language": "en",
     "template": "nextjs"
