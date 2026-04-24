@@ -6,6 +6,7 @@ import {
 } from '@sitecore-content-sdk/nextjs';
 import components from '.sitecore/component-map';
 import scConfig from 'sitecore.config';
+import atoms from 'components/atoms';
 
 const Providers = ({
   children,
@@ -23,6 +24,7 @@ const Providers = ({
         api={scConfig.api}
         page={page}
         loadImportMap={() => import('.sitecore/import-map')}
+        atomRegistry={{ atoms }}
       >
         {children}
       </SitecoreProvider>
