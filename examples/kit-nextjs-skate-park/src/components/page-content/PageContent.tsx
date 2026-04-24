@@ -1,8 +1,5 @@
-import React, { JSX } from 'react';
-import {
-  RichText as ContentSdkRichText,
-  RichTextField,
-} from '@sitecore-content-sdk/nextjs';
+import { JSX } from 'react';
+import { RichText as ContentSdkRichText, RichTextField } from '@sitecore-content-sdk/nextjs';
 import { ComponentProps } from 'lib/component-props';
 import StructuredData from 'components/structured-data/StructuredData';
 import { buildArticleJsonLd } from 'src/lib/structured-data/schema';
